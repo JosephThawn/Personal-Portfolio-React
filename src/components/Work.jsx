@@ -4,16 +4,21 @@ import realEstate from '../assets/realestate.jpg';
 import Covid from '../assets/covid.jpg';
 import Whatsapp from '../assets/whatsapp.png';
 import Progress from '../assets/progress.png'
+import Animation from '../assets/movie-list-animation.png'
+import OpneAI from '../assets/fun-with-ai.png'
+import Kai from '../assets/kai.png'
+import Nft from '../assets/nft.png'
+import Portfolio from '../assets/portfolio.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-slate-500'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+    <div name='work' className='w-full sm:h-screen bg-scroll text-gray-300 bg-slate-500'>
+      <div className='max-w-[1000px] mx-auto p-5 flex flex-col justify-center w-full h-full'>
+        <div className='pb-1 pt-20 text-center'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Projects
           </p>
-          <p className='py-8'>Check out some of my recent projects</p>
+          <p className='py-8 text-2xl'>Check out some of my recent projects</p>
         </div>
 
 {/* Container */}
@@ -92,6 +97,54 @@ const Work = () => {
             {/* Grid Item */}
          
           <div
+            style={{ backgroundImage: `url(${Portfolio})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100 text-center'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Personal Project Portfolio
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='http://pauthawn-portfolio-react.s3-website.us-east-2.amazonaws.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Visit
+                  </button>
+                </a>
+                <a href='https://github.com/JosephThawn/Personal-Portfolio-React.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+            {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Animation})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Movie List Animation
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/JosephThawn/movie-list-animation.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Visit
+                  </button>
+                </a>
+                <a href='https://github.com/JosephThawn/movie-list-animation.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div
             style={{ backgroundImage: `url(${Whatsapp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -114,23 +167,22 @@ const Work = () => {
               </div>
             </div>
           </div>
-            {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Progress})` }}
+            style={{ backgroundImage: `url(${OpneAI})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                working in progress
+                Personal Project Portfolio
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/JosephThawn/Personal-Portfolio-React.git'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Visit
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/JosephThawn/Personal-Portfolio-React.git'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -138,14 +190,40 @@ const Work = () => {
               </div>
             </div>
           </div>
+          
           <div
-            style={{ backgroundImage: `url(${Progress})` }}
+            style={{ backgroundImage: `url(${Kai})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                working in progress
+                Kai Burmese Cuisine
+                (work in process)
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/JosephThawn/kai-burmese-cuisine.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Visit
+                  </button>
+                </a>
+                <a href='https://github.com/JosephThawn/kai-burmese-cuisine.git'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div
+            style={{ backgroundImage: `url(${Nft})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Next Project
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
